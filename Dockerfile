@@ -6,4 +6,4 @@ COPY . .
 
 EXPOSE 2322
 
-CMD java -jar phozon-0.5.0.jar
+CMD java -jar photon-0.5.0.jar
