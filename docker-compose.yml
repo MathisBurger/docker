@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  photon:
+    image: ghcr.io/mathisburger/photon-docker:latest
+    ports:
+      - "2322:2322"
+    volumes:
+      - ./photon_data:./photon_data:ro
